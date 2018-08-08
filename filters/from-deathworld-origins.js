@@ -47,7 +47,8 @@ UriCache.prototype.get = function(params, callback)
 
         var $ = cheerio.load(body, { decodeEntities: true });
         // var content = $('div.node-content div[property]').contents();
-        var content = $('article').children(':not(h1):not(aside)');
+        // var content = $('article').children(':not(h1):not(aside)');
+	var content = $('section').contents();
         
         $.root().children().remove();
         $.root().append(content);
