@@ -7,7 +7,7 @@ idna==2.7
 ipdb==0.11
 ipython==5.8.0
 ipython-genutils==0.2.0
-lxml==4.2.3
+lxml==4.9.1
 pathlib2==2.3.2
 pexpect==4.6.0
 pickleshare==0.7.4
